@@ -22,7 +22,7 @@ public class Cronometro extends Thread{
             if(segundos >= 60){
                 segundos = 0;
                 minutos++;
-            } else if(minutos >= 60){
+            } else if(minutos >= 120){
                 pararCronometro();
             }
             try{
